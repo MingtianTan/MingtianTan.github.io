@@ -3,97 +3,200 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Mingtian Tan, University of Michigan — online residual learning for control under uncertainty." />
+  <meta name="description" content="Mingtian Tan — research assistant at the University of Michigan (iRaL). Embodied intelligence for aerial robots: aerial manipulation and online residual adaptation for agile flight." />
+  <meta property="og:title" content="Mingtian Tan" />
+  <meta property="og:description" content="Research assistant at the University of Michigan (iRaL). Aerial manipulation and online residual adaptation for agile flight." />
+  <meta property="og:image" content="https://mingtiantan.github.io/assets/img/avatar.jpg" />
+  <meta property="og:url" content="https://mingtiantan.github.io/" />
   <title>Mingtian Tan</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23006d77'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-size='26' fill='white'%3EMT%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <a class="skip" href="#about">Skip to content</a>
+  <a class="skip" href="#news">Skip to content</a>
 
-  <header class="topbar">
-    <a class="brand" href="./">Mingtian Tan</a>
-    <nav aria-label="Primary">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#education">Education</a>
-      <a href="#expertise">Expertise</a>
+  <div class="page">
+    <nav class="topnav" aria-label="Sections">
+      <a href="#news">News</a>
       <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="assets/Tan_Mingtian_CV.pdf">CV</a>
     </nav>
-  </header>
 
-  <div class="layout">
-    <aside class="sidebar">
-      <img class="avatar" src="assets/img/avatar.jpg" width="220" height="220" alt="Portrait of Mingtian Tan" />
-      <h1>Mingtian Tan</h1>
-      <p class="title">Graduate Researcher</p>
-      <p class="place"><a href="https://umich.edu/">University of Michigan</a></p>
-      <p class="icons">
-        <a href="mailto:teemty@umich.edu" title="Email" aria-label="Email"><i class="fa fa-envelope"></i></a>
-        <a href="https://github.com/MingtianTan" title="GitHub" aria-label="GitHub"><i class="fa fa-github"></i></a>
-      </p>
-    </aside>
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Mingtian Tan</h1>
+        <p class="role">Research Assistant, Intelligent Robotics and Autonomy Lab, University of Michigan</p>
+        <p>
+          I am a research assistant in the
+          <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Lab (iRaL)</a>
+          at the <a href="https://umich.edu/">University of Michigan, Ann Arbor</a>, advised by
+          <a href="https://aero.engin.umich.edu/people/tzoumas-vasileios/">Prof. Vasileios Tzoumas</a>
+          and working closely with <a href="https://hongyu-zhou.github.io/">Hongyu Zhou</a>.
+          I received my M.S. in Electrical and Computer Engineering (Robotics) from Michigan in 2026.
+          In summer 2025 I was a research intern at the FAST Lab, Zhejiang University, with
+          <a href="https://person.zju.edu.cn/fgaoaa">Prof. Fei Gao</a>.
+        </p>
+        <p>
+          My research is on <strong>embodied intelligence for aerial robots</strong>: flying agents that
+          perceive and act in the physical world. I currently work on <strong>aerial manipulation</strong>
+          with vision-language-action models coupled to learned flight policies, and on
+          <strong>online residual adaptation</strong> for agile flight under unknown, non-stationary disturbances.
+        </p>
+        <p class="links">
+          <a href="mailto:teemty@umich.edu">Email</a>
+          <a href="assets/Tan_Mingtian_CV.pdf">CV</a>
+          <a href="https://github.com/MingtianTan">GitHub</a>
+          <!-- <a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a> -->
+        </p>
+      </div>
+      <img class="hero-photo" src="assets/img/avatar.jpg" width="180" height="180" alt="Portrait of Mingtian Tan" />
+    </header>
 
-    <main class="content">
-      <h2 id="about">About</h2>
-      <p>
-        I'm Mingtian Tan, a graduate researcher at the
-        <a href="https://umich.edu/">University of Michigan, Ann Arbor</a>,
-        in the
-        <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Lab (iRaL)</a>
-        with
-        <a href="https://aero.engin.umich.edu/people/tzoumas-vasileios/">Prof. Vasileios Tzoumas</a>
-        and
-        <a href="https://hongyu-zhou.github.io/">Hongyu Zhou</a>.
-      </p>
-      <p>
-        My research interest lies in the combination of robotics, learning, and control:
-        online residual adaptation for autonomous flight under unknown disturbances.
-        I care about residual models that can be trained across domains and updated in real time,
-        and about keeping that update reliable when the residual is only partly a signal of the current domain&mdash;when a lasting change is mixed with a short out-of-distribution transient.
-      </p>
-      <p>
-        My research has been mainly applied to quadrotor trajectory tracking under unknown, time-varying disturbances.
-      </p>
+    <main>
+      <section id="news">
+        <h2>News</h2>
+        <dl class="news">
+          <dt>Oct 2026</dt>
+          <dd>Started a new project on <a href="https://mingtiantan.github.io/aerial-manipulation/">aerial manipulation</a> with a flight-conditioned arm VLA.</dd>
+          <dt>Oct 2026</dt>
+          <dd>Serving as a reviewer for IEEE ICRA 2027.</dd>
+          <dt>Sep 2026</dt>
+          <dd>Submitted <em>Dual Gradient Consensus</em> (DGC), on adaptive learning under transient out-of-distribution disturbances, to IEEE ICRA 2027.</dd>
+          <dt>Jun 2026</dt>
+          <dd>The DAPL preprint is on arXiv: <a href="https://arxiv.org/abs/2606.13842">arXiv:2606.13842</a>.</dd>
+          <dt>May 2026</dt>
+          <dd>Graduated with an M.S. in ECE (Robotics) from the University of Michigan.</dd>
+          <dt>Feb 2025</dt>
+          <dd>Joined iRaL, advised by Prof. Vasileios Tzoumas.</dd>
+        </dl>
+      </section>
 
-      <h2 id="research">Research Interests</h2>
-      <ul>
-        <li>Online residual optimization under mixed disturbances</li>
-        <li>Domain-adaptive policy learning</li>
-        <li>Agile flight under unknown aerodynamics</li>
-      </ul>
+      <section id="publications">
+        <h2>Publications</h2>
 
-      <h2 id="education">Education</h2>
-      <ul>
-        <li>August 2024 – May 2026, M.S. in Electrical and Computer Engineering: Robotics, University of Michigan, Ann Arbor (UMich).</li>
-      </ul>
+        <article class="entry">
+          <div class="thumb"><img src="assets/img/dgc.png" alt="Quadrotor under in-domain and out-of-domain disturbances" loading="lazy" /></div>
+          <div class="body">
+            <p class="title">Dual Gradient Consensus for Adaptive Learning to Transient Out-of-Distribution Disturbances in Quadrotor Control</p>
+            <p class="authors"><span class="me">Mingtian Tan</span>, Vasileios Tzoumas</p>
+            <p class="venue">Under review at <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2027</p>
+            <!-- add once posted: <p class="linkrow"><a href="https://arxiv.org/abs/XXXX.XXXXX">arXiv</a></p> -->
+            <p class="tldr">Two gradient memories, long-term and short-term, vote on every online update of the learned disturbance model: when they disagree the step size shrinks, so a brief out-of-distribution pulse cannot corrupt the model, and once they agree again after a lasting shift the step size is restored. Lowest tracking error among all baselines on four mixed-disturbance benchmarks.</p>
+          </div>
+        </article>
 
-      <h2 id="expertise">Expertise &amp; Skills</h2>
-      <ul>
-        <li><strong>Control:</strong> Adaptive Control, Residual Learning for Control, Model Predictive Control</li>
-        <li><strong>Learning &amp; Optimization:</strong> Kernel Residual Models, Online Residual Optimization, Differentiable Simulation</li>
-        <li><strong>Programming:</strong> Python, JAX, C++, CUDA, ROS, MATLAB</li>
-        <li><strong>Platforms:</strong> Crazyflie, Agilicious, Jetson Orin</li>
-      </ul>
+        <article class="entry">
+          <div class="thumb"><img src="assets/img/dapl.jpg" alt="Crazyflie quadrotor flying in front of a fan" loading="lazy" /></div>
+          <div class="body">
+            <p class="title">Efficient Domain-Adaptive Policy Learning via Kernel Representation with Application to Quadrotor Control under Non-Stationary Disturbances</p>
+            <p class="authors">Hongyu Zhou, <span class="me">Mingtian Tan</span>, Vasileios Tzoumas</p>
+            <p class="venue"><em>arXiv:2606.13842</em>, 2026. Under review at <em>IEEE Robotics and Automation Letters (RA-L)</em></p>
+            <p class="linkrow"><a href="https://arxiv.org/abs/2606.13842">arXiv</a></p>
+            <p class="tldr">A kernel (random Fourier feature) disturbance model trained offline through differentiable simulation and adapted online by least squares. Up to 60–70% lower tracking error than adaptive-control and RL baselines in simulation, with hardware experiments on a Crazyflie under wind, payload, and ground-effect disturbances.</p>
+          </div>
+        </article>
 
-      <h2 id="publications">Publications</h2>
-      <ol class="pubs">
-        <li>
-          <span class="me">M. Tan</span>, B. Gu, C. Gu, Y. Lu, M. Leach, Q. Zhang, and Q. Bu.
-          A Residential Robot for Chinese Cupping Physiotherapy.
-          <span class="venue">Robot Intelligence Technology and Applications 8</span>,
-          Lecture Notes in Networks and Systems, vol. 1132, pp. 321–335. Springer, 2024.
-          <span class="links">
-            <a href="https://doi.org/10.1007/978-3-031-70684-4_27">[DOI]</a>
-          </span>
-        </li>
-      </ol>
+        <article class="entry">
+          <div class="thumb has-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/img/rita.jpg" aria-label="Robot arm performing cupping therapy">
+              <source src="assets/video/rita.mp4" type="video/mp4" />
+            </video>
+            <img class="poster" src="assets/img/rita.jpg" alt="Robot arm performing cupping therapy" loading="lazy" />
+          </div>
+          <div class="body">
+            <p class="title">A Residential Robot for Chinese Cupping Physiotherapy</p>
+            <p class="authors"><span class="me">Mingtian Tan</span>, B. Gu, C. Gu, Y. Lu, M. Leach, Q. Zhang, Q. Bu</p>
+            <p class="venue"><em>Robot Intelligence Technology and Applications 8 (RiTA 2023)</em>, Lecture Notes in Networks and Systems, vol. 1132, pp. 321–335, Springer, 2024 (oral)</p>
+            <p class="linkrow"><a href="https://doi.org/10.1007/978-3-031-70684-4_27">DOI</a><a href="https://drive.google.com/file/d/1drKc-fEVtg4q4PrqYxNiikNfF28ouGCG/view?usp=sharing">video</a></p>
+            <p class="tldr">A home-use cupping-therapy robot: an ABB arm with a custom suction gripper plans and executes therapeutic trajectories on the back, validated in controlled human tests. Second place, Jiangsu Provincial Intelligent Robot Innovation Competition (team lead).</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article class="entry">
+          <div class="thumb has-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/img/aerial.jpg" aria-label="Hexarotor with a robot arm opening a door in simulation">
+              <source src="assets/video/aerial.mp4" type="video/mp4" />
+            </video>
+            <img class="poster" src="assets/img/aerial.jpg" alt="Hexarotor with a robot arm opening a door in simulation" loading="lazy" />
+          </div>
+          <div class="body">
+            <p class="title">Aerial manipulation with a flight-conditioned arm VLA</p>
+            <p class="meta">iRaL, University of Michigan · Oct 2026 – present</p>
+            <p class="linkrow"><a href="https://mingtiantan.github.io/aerial-manipulation/">project page</a></p>
+            <p class="tldr">A two-policy architecture for a fully actuated hexarotor with a 4-DoF arm in AM-Bench: a lightweight Flight DiT outputs flight action chunks and a flight-intent token that conditions a π<sub>0.5</sub> arm policy. I built the demonstration dataset from scripted specialists after auditing and fixing the official task policies (44/60 → 60/60 successful runs). Evaluation against Diffusion Policy and LoRA / fully fine-tuned π<sub>0.5</sub> across 12 tasks and 48 disturbance variants is in progress.</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="thumb empty" aria-hidden="true"></div>
+          <div class="body">
+            <p class="title">Pathos: a LiDAR-based agile quadrotor research platform</p>
+            <p class="meta">iRaL, University of Michigan · Sep – Dec 2025</p>
+            <p class="linkrow"><a href="https://github.com/MingtianTan/Fastlio_ROS1_twist_refined_version">FAST-LIO guide</a></p>
+            <p class="tldr">Designed and built a LiDAR-equipped agile quadrotor on the Agilicious stack: 3D-printed sensor payload and mounts, Livox MID360 + FAST-LIO odometry with EKF pose fusion on a Jetson Orin, and a low-latency flight-controller link. Deployed an RFF-based simultaneous system-identification MPC on the vehicle; flight tests showed better disturbance rejection than the baselines.</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="thumb empty" aria-hidden="true"></div>
+          <div class="body">
+            <p class="title">Online swept-volume planning for dynamic environments</p>
+            <p class="meta">FAST Lab, Zhejiang University · May – Jul 2025</p>
+            <p class="tldr">Extended the SVSDF planner from offline to online swept-volume computation, with a centroid–boundary formulation that gives exact continuous-time contact constraints on the Lie group of rigid motions. A parallel CUDA kernel brought each replan from 40 ms to 4 ms (10×), enabling real-time obstacle-aware replanning.</p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="thumb has-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/img/drone.jpg" aria-label="Quadrotor flying autonomously outdoors">
+              <source src="assets/video/drone.mp4" type="video/mp4" />
+            </video>
+            <img class="poster" src="assets/img/drone.jpg" alt="Quadrotor flying autonomously outdoors" loading="lazy" />
+          </div>
+          <div class="body">
+            <p class="title">Autonomous aerial robot</p>
+            <p class="meta">B.Eng. final-year project, XJTLU · Oct 2023 – May 2024</p>
+            <p class="linkrow"><a href="https://drive.google.com/file/d/1nIARBgbYKsgRH8XpslpcBbK98I9rf4c0/view?usp=sharing">video</a></p>
+            <p class="tldr">Built the power and perception stack of a quadrotor: stereo VINS-Fusion odometry fused with flight-controller IMU data on a ROS 2 onboard computer, EGO-Planner for onboard planning and mapping, and state-machine safety logic for autonomous take-off and navigation; validated in outdoor waypoint missions.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="plain">
+          <li><strong>University of Michigan, Ann Arbor</strong> — M.S. in Electrical and Computer Engineering (Robotics), 2024 – 2026</li>
+          <li><strong>Xi'an Jiaotong-Liverpool University</strong> — B.Eng. in Electronic Science and Technology, 2020 – 2024 (dual degree with the University of Liverpool)</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Awards &amp; Service</h2>
+        <dl class="news">
+          <dt>2026</dt>
+          <dd>Reviewer, IEEE International Conference on Robotics and Automation (ICRA) 2027</dd>
+          <dt>2023</dt>
+          <dd>Second Place, Jiangsu Provincial China University Intelligent Robot Innovation Competition</dd>
+          <dt>2022</dt>
+          <dd>Honorable Mention, Mathematical Contest in Modeling (MCM)</dd>
+          <dt>2020 – 22</dt>
+          <dd>University Academic Achievement Scholarship (top 5%), XJTLU</dd>
+        </dl>
+      </section>
     </main>
-  </div>
 
-  <footer>
-    Last updated September 2026
-  </footer>
+    <footer>
+      Last updated October 2026. Layout adapted from <a href="https://jonbarron.info/">Jon Barron's website</a>.
+    </footer>
+  </div>
 </body>
 </html>
