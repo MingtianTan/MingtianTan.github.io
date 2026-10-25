@@ -21,6 +21,7 @@
   <div class="page">
     <nav class="topnav" aria-label="Sections">
       <a href="#news">News</a>
+      <a href="#current-project">Current Project</a>
       <a href="#publications">Publications</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
@@ -74,6 +75,25 @@
         </dl>
       </section>
 
+      <section id="current-project">
+        <h2>Current Project</h2>
+
+        <article class="entry">
+          <div class="thumb has-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/img/aerial.jpg?v=2" aria-label="Hexarotor with a robot arm opening a door in simulation">
+              <source src="assets/video/aerial.mp4?v=2" type="video/mp4" />
+            </video>
+            <img class="poster" src="assets/img/aerial.jpg?v=2" alt="Hexarotor with a robot arm opening a door in simulation" loading="lazy" />
+          </div>
+          <div class="body">
+            <p class="title">Aerial manipulation with a flight-conditioned arm VLA</p>
+            <p class="meta">iRaL, University of Michigan · Oct 2026 – present</p>
+            <p class="linkrow"><a href="https://mingtiantan.github.io/aerial-manipulation/">project page</a></p>
+            <p class="tldr">A two-policy architecture for a fully actuated hexarotor with a 4-DoF arm in AM-Bench: a lightweight Flight DiT outputs flight action chunks and a flight-intent token that conditions a π<sub>0.5</sub> arm policy. I built the demonstration dataset from scripted specialists after auditing and fixing the official task policies (44/60 → 60/60 successful runs). Evaluation against Diffusion Policy and LoRA / fully fine-tuned π<sub>0.5</sub> across 12 tasks and 48 disturbance variants is in progress.</p>
+          </div>
+        </article>
+      </section>
+
       <section id="publications">
         <h2>Publications</h2>
 
@@ -118,21 +138,6 @@
 
       <section id="projects">
         <h2>Projects</h2>
-
-        <article class="entry">
-          <div class="thumb has-video">
-            <video autoplay muted loop playsinline preload="metadata" poster="assets/img/aerial.jpg?v=2" aria-label="Hexarotor with a robot arm opening a door in simulation">
-              <source src="assets/video/aerial.mp4?v=2" type="video/mp4" />
-            </video>
-            <img class="poster" src="assets/img/aerial.jpg?v=2" alt="Hexarotor with a robot arm opening a door in simulation" loading="lazy" />
-          </div>
-          <div class="body">
-            <p class="title">Aerial manipulation with a flight-conditioned arm VLA</p>
-            <p class="meta">iRaL, University of Michigan · Oct 2026 – present</p>
-            <p class="linkrow"><a href="https://mingtiantan.github.io/aerial-manipulation/">project page</a></p>
-            <p class="tldr">A two-policy architecture for a fully actuated hexarotor with a 4-DoF arm in AM-Bench: a lightweight Flight DiT outputs flight action chunks and a flight-intent token that conditions a π<sub>0.5</sub> arm policy. I built the demonstration dataset from scripted specialists after auditing and fixing the official task policies (44/60 → 60/60 successful runs). Evaluation against Diffusion Policy and LoRA / fully fine-tuned π<sub>0.5</sub> across 12 tasks and 48 disturbance variants is in progress.</p>
-          </div>
-        </article>
 
         <article class="entry">
           <div class="thumb empty" aria-hidden="true"></div>
