@@ -89,7 +89,7 @@
             <p class="title">Aerial manipulation with a flight-conditioned arm VLA</p>
             <p class="meta">iRaL, University of Michigan · Oct 2026 – present</p>
             <p class="linkrow"><a href="https://mingtiantan.github.io/aerial-manipulation/">project page</a></p>
-            <p class="tldr">A two-policy architecture for a fully actuated hexarotor with a 4-DoF arm in AM-Bench: a lightweight Flight DiT outputs flight action chunks and a flight-intent token that conditions a π<sub>0.5</sub> arm policy. I built the demonstration dataset from scripted specialists after auditing and fixing the official task policies (44/60 → 60/60 successful runs). Evaluation against Diffusion Policy and LoRA / fully fine-tuned π<sub>0.5</sub> across 12 tasks and 48 disturbance variants is in progress.</p>
+            <p class="tldr">Fixed the official task policies in the open-source AM-Bench so that all 12 aerial-manipulation tasks succeed, collected demonstrations with them, and fine-tuned π<sub>0.5</sub> with both LoRA and full fine-tuning. Now training a lightweight Flight DiT for the hexarotor and building a dual-policy architecture in which its flight-intent token conditions the π<sub>0.5</sub> arm policy. Targeting ICML 2027.</p>
           </div>
         </article>
       </section>
