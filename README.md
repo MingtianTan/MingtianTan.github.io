@@ -3,7 +3,9 @@
 Personal academic site, served at [mingtiantan.github.io](https://mingtiantan.github.io/).
 Plain HTML + CSS, no build step: edit and push `main` to publish.
 
-- `index.html` — the whole page (news, publications, projects, education, awards).
+- `index.html` — the whole page (news, current project, long-term vision, publications, projects,
+  education, awards). The vision entry links to the SPINE proposal page (repo `MingtianTan/Sandevistan`);
+  its thumbnail `assets/img/spine.png` is a 4:3 redraw of that page's reflex-arc figure.
 - `assets/style.css` — layout and colours; single column, adapted from Jon Barron's site.
 - `assets/img/` — portrait (`avatar.jpg`) and 4:3 thumbnails / video posters (480×360) for each entry.
 - `assets/video/` — 5-second muted looping MP4 clips (480×360, H.264) shown in place of a thumbnail; the matching poster in `assets/img/` is the clip's first frame.
